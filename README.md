@@ -6,7 +6,7 @@ A cross-platform application for translating between the Loense language and Eng
 
 - **Bidirectional translation**: Loense ↔ English
 - **Simple GUI** for ease of use
-- **Cross-platform**: Works on Windows, macOS, and Linux
+- **Cross-platform**: Works on Windowd and macOS
 
 ## Requirements
 
