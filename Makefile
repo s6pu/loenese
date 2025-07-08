@@ -22,8 +22,8 @@ bundle:
 	mkdir -p $(APP_NAME).app/Contents/MacOS
 	mkdir -p $(APP_NAME).app/Contents/Resources
 	cp $(APP_NAME) $(APP_NAME).app/Contents/MacOS/
-	cp dist/crnn_model.pth $(APP_NAME).app/Contents/Resources/
-	cp dist/crnn_model.onnx $(APP_NAME).app/Contents/Resources/
+	cp model/crnn_model.pth $(APP_NAME).app/Contents/Resources/
+	cp model/crnn_model.onnx $(APP_NAME).app/Contents/Resources/
 	cp $(MODEL) $(APP_NAME).app/Contents/Resources/
 	cp assets/Loen.otf $(APP_NAME).app/Contents/Resources/
 	cp assets/icon.png $(APP_NAME).app/Contents/Resources/
